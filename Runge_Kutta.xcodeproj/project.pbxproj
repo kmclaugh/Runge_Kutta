@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3A89EF164D7F09004F5520 /* Runge_Kutta_CPP.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A3A89EE164D7F09004F5520 /* Runge_Kutta_CPP.1 */; };
+		0A3A89F4164D801F004F5520 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A89EC164D7F09004F5520 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A3A89E6164D7F09004F5520 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0A3A89EF164D7F09004F5520 /* Runge_Kutta_CPP.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A3A89DB164D7BF0004F5520 /* NumericalRecipes Chap 16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "NumericalRecipes Chap 16.pdf"; sourceTree = "<group>"; };
+		0A3A89DC164D7BF0004F5520 /* Runge_Kutta_Notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Runge_Kutta_Notes.rtf; sourceTree = "<group>"; };
+		0A3A89DD164D7BF0004F5520 /* Runge_Kutta_Python.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Runge_Kutta_Python.py; sourceTree = "<group>"; };
+		0A3A89E8164D7F09004F5520 /* Runge_Kutta_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Runge_Kutta_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3A89EC164D7F09004F5520 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A3A89EE164D7F09004F5520 /* Runge_Kutta_CPP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Runge_Kutta_CPP.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3A89E5164D7F09004F5520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3A89CE164D7BB6004F5520 = {
+			isa = PBXGroup;
+			children = (
+				0A3A89DB164D7BF0004F5520 /* NumericalRecipes Chap 16.pdf */,
+				0A3A89DC164D7BF0004F5520 /* Runge_Kutta_Notes.rtf */,
+				0A3A89DD164D7BF0004F5520 /* Runge_Kutta_Python.py */,
+				0A3A89EB164D7F09004F5520 /* Runge_Kutta_CPP */,
+				0A3A89E9164D7F09004F5520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3A89E9164D7F09004F5520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3A89E8164D7F09004F5520 /* Runge_Kutta_CPP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3A89EB164D7F09004F5520 /* Runge_Kutta_CPP */ = {
+			isa = PBXGroup;
+			children = (
+				0A3A89EC164D7F09004F5520 /* main.cpp */,
+				0A3A89EE164D7F09004F5520 /* Runge_Kutta_CPP.1 */,
+			);
+			path = Runge_Kutta_CPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0A3A89D5164D7BB6004F5520 /* Runge_Kutta_Python */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 0A3A89D8164D7BB6004F5520 /* Build configuration list for PBXLegacyTarget "Runge_Kutta_Python" */;
+			buildPhases = (
+			);
+			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.2/bin/python3.2;
+			dependencies = (
+			);
+			name = Runge_Kutta_Python;
+			passBuildSettingsInEnvironment = 1;
+			productName = Runge_Kutta;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0A3A89E7164D7F09004F5520 /* Runge_Kutta_CPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3A89F0164D7F09004F5520 /* Build configuration list for PBXNativeTarget "Runge_Kutta_CPP" */;
+			buildPhases = (
+				0A3A89E4164D7F09004F5520 /* Sources */,
+				0A3A89E5164D7F09004F5520 /* Frameworks */,
+				0A3A89E6164D7F09004F5520 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runge_Kutta_CPP;
+			productName = Runge_Kutta_CPP;
+			productReference = 0A3A89E8164D7F09004F5520 /* Runge_Kutta_CPP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3A89D0164D7BB6004F5520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Kevin McLaughlin";
+			};
+			buildConfigurationList = 0A3A89D3164D7BB6004F5520 /* Build configuration list for PBXProject "Runge_Kutta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A3A89CE164D7BB6004F5520;
+			productRefGroup = 0A3A89E9164D7F09004F5520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3A89D5164D7BB6004F5520 /* Runge_Kutta_Python */,
+				0A3A89E7164D7F09004F5520 /* Runge_Kutta_CPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3A89E4164D7F09004F5520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3A89F4164D801F004F5520 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A3A89D6164D7BB6004F5520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A3A89D7164D7BB6004F5520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A3A89D9164D7BB6004F5520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A3A89DA164D7BB6004F5520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A3A89F1164D7F09004F5520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A3A89F2164D7F09004F5520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3A89D3164D7BB6004F5520 /* Build configuration list for PBXProject "Runge_Kutta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3A89D6164D7BB6004F5520 /* Debug */,
+				0A3A89D7164D7BB6004F5520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3A89D8164D7BB6004F5520 /* Build configuration list for PBXLegacyTarget "Runge_Kutta_Python" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3A89D9164D7BB6004F5520 /* Debug */,
+				0A3A89DA164D7BB6004F5520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A3A89F0164D7F09004F5520 /* Build configuration list for PBXNativeTarget "Runge_Kutta_CPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3A89F1164D7F09004F5520 /* Debug */,
+				0A3A89F2164D7F09004F5520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3A89D0164D7BB6004F5520 /* Project object */;
+}
